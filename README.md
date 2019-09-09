@@ -29,7 +29,7 @@ A partir de este repositorio como punto inicial, van a tener que implementar cad
 
 Para generar carga y ver las mediciones obtenidas, en la carpeta `perf/` tienen un dashboard de Grafana ya armado (`dashboard.json`) y un ejemplo de un escenario básico de artillery. También hay un script y una configuración en el `package.json` para que puedan ejecutar los escenarios que hagan corriendo:
 
-```sh npm run scenario <filename> <server>```
+```npm run scenario <filename> <server>```
 
 donde `<filename>` es el nombre del archivo con el escenario (sin la extensión `.yaml`) y `<server>` es el server contra el que quieren ejecutarlo (vean la sección `environments` dentro del yaml del escenario).
 
